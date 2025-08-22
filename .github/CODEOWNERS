@@ -1,0 +1,40 @@
+# CODEOWNERS file for location-utility-150
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-logging @Armor-test/squad-search @Armor-test/squad-api
+
+# Directory ownership
+/hooks/ @Armor-test/dept-security @Armor-test/unit-cloud @Armor-test/dept-api
+/vendor/ @Armor-test/squad-payments @Armor-test/dept-test
+/models/ @Armor-test/dept-security @Armor-test/dept-notifications
+/internal/ @Armor-test/grp-api @Armor-test/dept-reliability @Armor-test/dept-data
+/public/ @Armor-test/team-governance @Armor-test/team-security
+/tools/ @Armor-test/squad-cache @Armor-test/team-research
+/security/ @Armor-test/squad-reporting @Armor-test/unit-governance @Armor-test/squad-database
+/lib/ @Armor-test/dept-reporting @Armor-test/squad-frontend
+/services/ @Armor-test/team-notifications @Armor-test/dept-reporting
+/styles/ @Armor-test/squad-database @Armor-test/team-governance
+/helpers/ @Armor-test/squad-cloud @Armor-test/squad-frontend
+/core/ @Armor-test/squad-cloud @Armor-test/dept-data
+/migrations/ @Armor-test/squad-qa @Armor-test/dept-data
+
+# File type ownership
+*.kt @Armor-test/dept-automation @Armor-test/team-security
+*.py @Armor-test/team-governance @Armor-test/team-frontend @Armor-test/squad-tooling
+*.swift @Armor-test/unit-test @Armor-test/squad-qa
+*.cs @Armor-test/grp-payments @Armor-test/squad-payments
+*.gradle @Armor-test/team-logging @Armor-test/dept-api @Armor-test/unit-governance
+*.tsx @Armor-test/dept-billing @Armor-test/squad-database @Armor-test/team-security
+*.yml @Armor-test/unit-governance @Armor-test/dept-data @Armor-test/squad-reporting
+*.md @Armor-test/squad-ux @Armor-test/dept-test @Armor-test/unit-test
+*.xml @Armor-test/grp-integration @Armor-test/squad-tooling @Armor-test/squad-apps
+*.h @Armor-test/grp-payments @Armor-test/dept-logging
+*.sh @Armor-test/squad-mobile @Armor-test/squad-cache @Armor-test/grp-search
+*.css @Armor-test/unit-governance @Armor-test/squad-qa
+*.rb @Armor-test/squad-search @Armor-test/squad-api @Armor-test/squad-cloud
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
